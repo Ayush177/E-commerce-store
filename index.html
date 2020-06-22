@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+        integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Project</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-center">
+            <span class="nav-icon">
+                <a href="https://www.linkedin.com/in/ayush-arora-463185148/"><i class="fas fa-user"></i></a>
+            </span>
+            <img src="./images/logo-1.png" style="height:100px;" alt="my logo"/>
+            <div class="cart-btn">
+                <span class="nav-icon">
+                <i class="fas fa-cart-plus"></i>
+                </span>
+                <div    class="cart-items">0</div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="banner">
+            <h1 class="banner-title">The iEcosystem</h1>
+            <a href="#jump"><button class="banner-btn">Shop Now</button></a>
+        </div>
+    </header>
+
+    <section class="product" id="jump">
+        <div class="section-title">
+            <h2>Our Products</h2>
+        </div>
+        <div class="products-center">
+        </div>
+    </section>
+    <footer class="foot"><a href="https://www.linkedin.com/in/ayush-arora-463185148/"
+            class="footText" alt="Linkedin">&copy;Ayush Arora</a></footer>
+    <div class="cart-overlay">
+        <div class="cart">
+            <span class="close-cart">
+                <i class="fas fa-window-close"></i>
+            </span>
+            <h2>your cart</h2>
+            <div class="cart-content">
+                <!-- <div class="cart-item">
+                   
+                </div> -->
+            </div>
+            <div class="cart-footer">
+                <h3>your total : &#8377 <span class="cart-total">0</span>
+                </h3>
+                <button class="clear-cart banner-btn">clear cart</button>
+            </div>
+        </div>
+    </div>
+   
+    <script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
